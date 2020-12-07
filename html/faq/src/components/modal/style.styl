@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html, .root, main.main {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.help
+    display: block
+    padding-bottom 60px
+
+    &__container
+        max-width 1130px
+        padding: 0 15px
+        margin: 0 auto
+        width 100%
+
+    &__top
+        background: #FFFBEB
+        padding: 45px 0
+
+        .help
+            &__container                        
+                display : flex
+                align-items: center
+
+            &__left
+                flex: 1
+                padding: 10px
+
+                > div
+                    max-width 370px
+                    margin-left: auto
+            
+                    span
+                        font-size: 20px
+                        line-height: 28px
+                        color: #4F4F4F
+
+
+            &__title
+                display: block
+                font-size: 25px
+                line-height: normal
+                color: #4F4F4F
+                text-transform: uppercase
+                margin-bottom 30px
+
+                span
+                    display: block
+                    font-size: 40px
+
+            &__right
+                flex: 0 0 650px
+
+    &__middle
+        .help
+            &__list
+                position relative
+
+            &__item
+                padding: 15px 
+                max-width 367px
+                border-bottom: 2px solid #F0EADF;
+
+            &__title
+                display: flex
+                align-items: center
+
+                font-size: 18px;
+                line-height: normal;
+                color: #4F4F4F;
+
+                svg
+                    margin-right: 20px
+
+            &__menu
+                position: absolute
+                top: 0
+                right 0
+                left 370px
+
+
+                &--item
+                    background: #FAF7EE;
+                    padding: 20px 
+                    border-bottom: 2px solid #DBD7CE;
+
+                &--content
+                    display: none
+
+                &--open
+                    background: #F2F2F2;
+
+                    .help
+                        &__menu
+                            &--content
+                                display block
+                                margin: 30px 0
+
+                                > div
+                                    display: block
+                                    margin-bottom 15px
+
+                            &--title
+                                display: block
+                                font-weight: bold;
+                                font-size: 16px;
+                                line-height: 28px;
+                                color: #A74238;
+
+                            &--span
+                                display: block
+
+                                font-weight: normal;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #4F4F4F;
+
+
+            &__strong
+                font-weight: bold;
+                font-size: 16px;
+                line-height: normal
+                color: #4F4F4F;
+
+                
